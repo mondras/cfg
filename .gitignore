@@ -1,0 +1,41 @@
+# From OSX.gitignore
+.DS_Store
+
+# From vim.gitignore
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# Other stuff
+*.orig
+vendor/local
+.rbenv-version
+.bundle
+.powenv
+.ackrc
+
+# Autocompletion files
+.*~
+
+# Java autocomplete
+.classpath
+.factorypath
+.project
+.settings/
+.idea
+
+# envrc
+.envrc
+
+# Guard
+Guardfile
+
+#CFG
+.cfg
